@@ -998,14 +998,17 @@ html.dark .chat-messages:hover::-webkit-scrollbar-thumb {
   grid-auto-rows: auto;
   column-gap: 12px;
   row-gap: 8px;
-  align-items: end;
+  align-items: stretch;
 }
 
 .input-actions {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: space-between;
   gap: 8px;
+  height: 100%;
+  align-self: stretch;
 }
 
 /* 不再需要单独的第二行容器 */

@@ -6,7 +6,7 @@ import { useDark, useToggle } from '@vueuse/core'
 const settingsVisible = ref(false)
 // 固定外链：请按需替换为你的真实地址
 const GITHUB_URL = 'https://github.com/cabin-w/cabin.ai'
-const GITHUB_PAGE = 'https://github.com/cabin-w/cabin.ai'
+const GITHUB_PAGE = 'https://github.com/cabin-w'
 const BLOG_URL = 'https://cabin.ink/'
 const SILICONFLOW_URL = 'https://cloud.siliconflow.cn/i/oce44hC4'
 const DEFAULT_AVATAR_URL = 'https://cabin.ink/images/avatar.png'
