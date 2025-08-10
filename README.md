@@ -8,7 +8,7 @@
 
 一个开箱即用的 Web 端 AI Chat 应用：无需后端，API Key 本地保存，支持流式输出、会话管理、导出/导入、消息级操作、暗黑模式与移动端适配。
 
-> 完整源码已推送至 `code` 分支
+完整源码已推送至 `code` 分支
 #### 功能特性
 - 流式输出（SSE）与超时保护：逐字呈现回答，超长文本不再卡死，可随时中止
 - 对话管理：创建/切换/删除会话，持久化存储于 `localStorage`
@@ -82,7 +82,7 @@ npm run preview
 
 A ready-to-use web AI chat app: no backend required. Your API key is stored locally. It supports streaming responses, conversation management, import/export, per-message actions, dark mode, and mobile-friendly UI.
 
-> Full source code is in the `code` branch.
+Full source code is in the `code` branch.
 #### Features
 - Streaming (SSE) with timeout protection: token-by-token rendering; stop anytime
 - Conversation management: create/switch/delete; persisted in `localStorage`
