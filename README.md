@@ -1,5 +1,7 @@
 ## Cabin.AI — 轻量本地运行的流式aichatbot（Vue 3 + Vite + Element Plus）
-## 演示地址：ai.cabin.ink
+
+> 在线演示：[`ai.cabin.ink`](https://ai.cabin.ink)
+
 一个开箱即用的 Web 端 AI Chat 应用：无需后端，API Key 本地保存，支持流式输出、会话管理、导出/导入、消息级操作、暗黑模式与移动端适配。
 
 ### 功能特性
@@ -52,7 +54,7 @@ npm run preview
    - API Key：填写你的服务商 Key（本项目默认使用 SiliconFlow 的兼容接口）
    - 模型名称：例如 `deepseek-ai/DeepSeek-R1-Distill-Qwen-32B`
    - 角色设定：对话的系统提示词（可为空）
-   - 我的头像：
+   - 设置头像：
      - 若填写图片 URL（含 `http(s)` 或 `data:image`），头像将显示该图片
      - 若填写文本（1-2 字），将以文字头像显示
      - 留空时使用默认头像地址（见上）
@@ -81,18 +83,8 @@ npm run preview
 ### 安全与隐私
 - API Key 仅保存在浏览器本地 `localStorage`，前端直连服务商接口；请自行评估并遵循服务商的使用策略
 
-### 常见问题（FAQ）
-- 长回答会不会超时？
-  - 已启用流式输出与更长的超时阈值，通常能避免 30s 超时问题；仍可随时“停止生成”
-- 没有“重试”按钮？
-  - “重试”在消息气泡的操作区，仅对最后一条助手消息显示
-- 默认头像能否自定义？
-  - 支持文本或图片 URL；未配置时使用默认头像地址：[`https://cabin.ink/images/avatar.png`](https://cabin.ink/images/avatar.png)
 
-### Roadmap（可选）
-- 支持对话内搜索、消息折叠/展开
-- 断点续答与“继续生成”
-- 文件/图片上传与可视化结果渲染
+
 
 ### 许可与致谢
 - License：MIT（根据你项目需要可调整）
