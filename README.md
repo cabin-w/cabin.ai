@@ -1,5 +1,5 @@
 ## Cabin.AI — 轻量本地运行的流式aichatbot（Vue 3 + Vite + Element Plus）
-
+## 演示地址：ai.cabin.ink
 一个开箱即用的 Web 端 AI Chat 应用：无需后端，API Key 本地保存，支持流式输出、会话管理、导出/导入、消息级操作、暗黑模式与移动端适配。
 
 ### 功能特性
