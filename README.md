@@ -2,7 +2,7 @@
 
 ## 中文
 
-### Cabin.AI — 轻量的流式 aichatbot（Vue 3 + Vite + Element Plus）
+### Cabin.AI — 轻量的流式 AI Chat App（Vue 3 + Vite + Element Plus）
 
 > 在线演示：[`ai.cabin.ink`](https://ai.cabin.ink)
 
@@ -75,7 +75,7 @@ npm run preview
 
 ## English
 
-### Cabin.AI — Lightweight streaming AI chatbot (Vue 3 + Vite + Element Plus)
+### Cabin.AI — Lightweight streaming AI chat app (Vue 3 + Vite + Element Plus)
 
 > Live Demo: [`ai.cabin.ink`](https://ai.cabin.ink)
 
