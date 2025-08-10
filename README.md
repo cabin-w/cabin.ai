@@ -2,10 +2,10 @@
 
 ## 中文
 
-### Cabin.AI — 轻量的流式 aichatbot（Vue 3 + Vite + Element Plus）
+### Cabin.AI — 轻量的流式 AI Chat App（Vue 3 + Vite + Element Plus）
 
 > 在线演示：[`ai.cabin.ink`](https://ai.cabin.ink)
-
+完整源码已推送至 `code` 分支
 一个开箱即用的 Web 端 AI Chat 应用：无需后端，API Key 本地保存，支持流式输出、会话管理、导出/导入、消息级操作、暗黑模式与移动端适配。
 
 #### 功能特性
@@ -75,11 +75,12 @@ npm run preview
 
 ## English
 
-### Cabin.AI — Lightweight streaming AI chatbot (Vue 3 + Vite + Element Plus)
+### Cabin.AI — Lightweight streaming AI chat app (Vue 3 + Vite + Element Plus)
 
-> Live Demo: [`ai.cabin.ink`](https://ai.cabin.ink)
+> Live Demo: [`ai.cabin.ink`](https://ai.cabin.ink) 
 
 A ready-to-use web AI chat app: no backend required. Your API key is stored locally. It supports streaming responses, conversation management, import/export, per-message actions, dark mode, and mobile-friendly UI.
+Full source code is in the `code` branch.
 
 #### Features
 - Streaming (SSE) with timeout protection: token-by-token rendering; stop anytime
